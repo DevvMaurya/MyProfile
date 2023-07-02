@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dev.css">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="icon" href="logo.png">
+    <title>DevMaurya</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <menu><a href="#"> home</a></menu>
+            <menu><a onclick="jumpToAbout()"> About</a></menu>
+            <menu><a href="#"> Resume</a></menu>
+            <menu><a href="#"> Projects</a></menu>
+            <menu><a href="#"> Contact</a></menu>
+        <div class="clk">
+        
+            <span class="box" id="hr">0</span>
+            <span class="box" id="min">0</span>
+            <span class="box" id="s">0</span>
+            
+        </div>
+    </nav>
+
+    </header>
+    <section>
+        <div class="img-text">
+            <img class="pic" src="" alt="">
+            <img src="logo.png" alt="">
+            <span class="main-text"><h4>Hi.! it's me.</h4><h2>Dev Maurya</h2>
+                <p>
+                 Welcom to my official webpage. <br> Here my Academinc info. , Ceritificates, Projects and Experience <br> many relative informations are availabe. <br>
+                    " I wanna join Enthusiastic group of people who can help me to Grow."
+                </p>
+            </span>
+        </div>
+    </section>
+    <!-- SECOND SECTOIN -->
+
+    <section class="midsection" id="about" >
+        <h3 class="homebtn"> <a onclick="BackToHome()">⬅️ Back To Home</a></h3>
+        <div class="backpic" id="cb" onscroll="onSCroll()"> <!--- SCROLL EFFECT ON PIC AND NAME>>!!-->
+            <button class="change_back" id="change_back" onclick="changeBackImg()">✏️</button>
+            <div class="info" id="info">
+                <div class="pic" id="pic">
+                    <img id="chuser" class="user_img" src="logo.png" alt="">
+                </div>
+                <button class="change_user-img" id="change_user-img" onclick="changeUserInfo()">✏️</button>
+
+                <h2 id="name">Dev Maurya</h2>
+                <h4 id="descp">HI.. searching for peaceful place for mind.!</h4>
+                <p>
+                    Other thing that people should know about you before communicating with you or arge to communicate to you. like anthing. 
+                </p>
+                <div class="links">
+                    <h5>connection links:</h5>
+                    <a href="">🔗</a>
+                    <a href="">🦑</a>
+                    <a href="">🌊</a>
+                    <a href="">🔗</a>
+                    <a href="">🦑</a>
+                    <a href="">🌊</a>
+                </div>
+                <!-- Education InfoMation. -->
+                <div class="educationInfo">
+                    <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
+                      <li>  I completed my 10 + 2 from this School. </li>
+                    </p>
+                    <br>
+
+                    <p><h4> 🏫 College Name:</h4> <a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
+                       <li> I'm currently pursuing B.Tech in Information Technology.</li>
+                    </p>
+
+
+                    <!-- <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
+                        <li>  I completed my 10 + 2 from this School. </li>
+                      </p>
+                      <br>
+                      
+                      <p><h4> 🏫 College Name:</h4> <a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
+                         <li> I'm currently pursuing B.Tech in Information Technology.</li>
+                      </p>
+
+                      <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
+                        <li>  I completed my 10 + 2 from this School. </li>
+                      </p>
+                      <br>
+                      
+                      <p><h4> 🏫 College Name:</h4> <a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
+                         <li> I'm currently pursuing B.Tech in Information Technology.</li>
+                      </p> -->
+                </div>
+                <!-- Certificates && Experience Information -->
+                <div class="Certificates">
+
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    
+</body>
+<script src="clock.js"></script>
+<script src="infoChange.js"></script>
+<script src="index.js"></script>
+</html>
