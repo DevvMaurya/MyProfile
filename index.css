@@ -35,15 +35,64 @@ a
 .homebtn
 {
     position: absolute;
-    top: 6.9%;
+    top: 10%;
     left: 5%;
-    font-size: 20px;
+    font-size: 15px;
     height: auto;
     width: fit-content;
-    background-image: linear-gradient(30deg ,rgb(229, 14, 229),whitesmoke);
-    color: black;
+    /* background-image: linear-gradient(30deg ,rgb(229, 14, 229),whitesmoke);
+     */
+    color: rgb(255, 232, 232);
     padding: 5px;
     border-radius: 12px;
     font-weight: 500;
+
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.homebtn:hover
+{
+    animation-name:fillbtn ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+.homebtn:hover::before
+{
+    content: '<<';
+}
+@keyframes fillbtn
+{
+    0% {
+         background-image: linear-gradient(30deg ,rgb(229, 14, 229),rgb(56, 80, 236));
+        height: auto;
+        width: 20%;
+
+    
+    }
+    30%{
+        background-image: linear-gradient(30deg ,rgb(229, 14, 229),rgb(56, 80, 236));
+        height: auto;
+        width: 50%;
+        content: ' visitor';
+    }
+    50%
+    {
+        background-image: linear-gradient(30deg ,rgb(229, 14, 229),rgb(56, 80, 236));
+        height: auto;
+        width: 75%;
+    }
+    70%{
+        background-image: linear-gradient(30deg ,rgb(229, 14, 229),rgb(56, 80, 236));
+        height: auto;
+        width: 50%;    
+
+    }
+    100%
+    {
+        background-image: linear-gradient(30deg ,rgb(229, 14, 229),rgb(56, 80, 236));
+        height: auto;
+        width: 20%; 
+
+    }
+
 }
