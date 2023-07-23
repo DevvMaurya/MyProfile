@@ -4,6 +4,13 @@
     {
         overflow-y: scroll;
         overflow-x: hidden;
+        font-size: 16px;
+
+    }
+    .main-text
+    {
+        position: absolute;
+        top: 35%;
     }
     .midsection
     {
@@ -29,20 +36,28 @@
     
     #info
     {
-    position: absolute;
+    /* position: absolute; */
     top: 25%;
     padding: 8px;    /* width: auto; */
     /* border: 1px solid greenyellow;  */
     /* padding-right: 80px; */
     /* padding-left: 80px; */
+    line-height: 20px;
     background-color:rgb(0,24,90,0.7);
+    }
+    #info .links
+    {
+        display: inline;
+        
+    }
+    #info .links img
+    {
+        width: auto;
     }
     #pic
     {
+        visibility: hidden;
         position: absolute;
-        left: -300%;
-        padding: 0;
-
     }
     .change_user-img
     {
@@ -87,4 +102,18 @@
         margin-bottom: 6px;
         text-decoration: underline;
     }
+    #mobilePic
+    {
+        position: absolute;
+        width: 245px;
+        height: 240px;
+        border: 3px solid white;
+        border-radius: 50%;
+        transform: translateY(-70%);
+        z-index: 9;
+    }
+.educationInfo
+{
+    font-size: 16px;
+}
 }

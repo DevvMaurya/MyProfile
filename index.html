@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="clock.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mobile.css">
+    
     <link rel="icon" href="logo.png">
     <title>DevMaurya</title>
 </head>
@@ -18,7 +19,8 @@
             <menu><a href="#"> home</a></menu>
             <menu><a onclick="jumpToAbout()"> About</a></menu>
             <!-- <menu><a href="https://drive.google.com/file/d/1nb7sQOgE1uQA3y8Ud7NqvwWn9M6Zcreb/view"> Resume</a></menu> -->
-            <menu><a onclick="downloadFile()"> Resume</a></menu>
+            <menu><a href="Resume.pdf"> Resume</a></menu>
+            <!-- <menu><a onclick="downloadFile()"> Resume</a></menu> -->
             <menu><a href="#"> Projects</a></menu>
             <menu><a href="#"> Contact</a></menu>
         <div class="clk">
@@ -37,7 +39,7 @@
             <img src="logo.png" alt="">
             <span class="main-text"><h4>Hi.! it's me.</h4><h2>Dev Maurya</h2>
                 <p>
-                 Welcom to my official webpage. <br> Here my Academinc info. , Ceritificates, Projects and Experience <br> many relative informations are availabe. <br>
+                 Welcom to my official webpage. <br> Here my Academinc info. , Ceritificates, Projects and Experience many relative informations are availabe. <br>
                     " I wanna join Enthusiastic group of people who can help me to Grow."
                 </p>
             </span>
@@ -47,50 +49,53 @@
 
     <section class="midsection" id="about" >
         <h3 class="homebtn"> <a onclick="BackToHome()">⬅️ Back To Home</a></h3>
+        <img id="mobilePic" src="me.jpg" alt="Dev Pic">
         <div class="backpic" id="cb" onscroll="onSCroll()"> <!--- SCROLL EFFECT ON PIC AND NAME>>!!-->
             <button class="change_back" id="change_back" onclick="changeBackImg()">✏️</button>
             <div class="info" id="info">
                 <div class="pic" id="pic">
                     <img id="chuser" class="user_img" src="logo.png" alt="">
                 </div>
-                <button class="change_user-img" id="change_user-img" onclick="changeUserInfo()">✏️</button>
+                <!-- <button class="change_user-img" id="change_user-img" onclick="changeUserInfo()">✏️</button> -->
 
                 <h2 id="name">Dev Maurya</h2>
                 <h4 id="descp">HI.. searching for peaceful place for mind.!</h4>
                 <p>
                     Other thing that people should know about you before communicating with you or arge to communicate to you. like anthing. 
-                </p>
+                </p><br>
+                <hr>
                 <div class="links">
                     <h5>connection links:</h5>
-                    <a href="">🔗</a>
-                    <a href="">🦑</a>
-                    <a href="">🌊</a>
-                    <a href="">🔗</a>
-                    <a href="">🦑</a>
-                    <a href="">🌊</a>
+                    <a href="https://github.com/DevvMaurya"><img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/FFFFFF/github.png" alt="github"/></a>
+                    <a href="https://www.linkedin.com/in/dev-maurya-238405222"><img width="50" height="50" src="https://img.icons8.com/cute-clipart/64/linkedin.png" alt="linkedin"/></a>
+                    <a href="https://www.instagram.com/devv_maurya/"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram.png" alt="instagram"/></a>
+                    <!-- <a href="https://discord.com/channels/@me"><img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo"/></a> -->
+                    <a href="https://discord.com/channels/@me"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/7950F2/discord--v1.png" alt="discord--v1"/></a>
+
                 </div>
                 <!-- Education InfoMation. -->
                 <div class="educationInfo">
-                    <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
+                    <hr>
+                    <p><h4> 🏫 College Name:</h4> <br><a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
+                    <li> I'm currently pursuing B.Tech in Information Technology.</li>
+                    </p>
+                    <hr>
+                    <p><h4> 🏫 School Name:</h4><br> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
                       <li>  I completed my 10 + 2 from this School. </li>
                     </p>
-                    <br>
+                    <!-- <br> -->
 
-                    <p><h4> 🏫 College Name:</h4> <a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
-                       <li> I'm currently pursuing B.Tech in Information Technology.</li>
-                    </p>
-
-
-                    <!-- <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
+<!-- 
+                    <<p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
                         <li>  I completed my 10 + 2 from this School. </li>
                       </p>
-                      <br>
-                      
+                      <br> -->
+                    <!-- <hr>                      
                       <p><h4> 🏫 College Name:</h4> <a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
                          <li> I'm currently pursuing B.Tech in Information Technology.</li>
                       </p>
-
-                      <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
+                      <hr> -->
+                      <!-- <p><h4> 🏫 School Name:</h4> <a href="school.com">S.S.P.H.Bachakaniwala </a><br>
                         <li>  I completed my 10 + 2 from this School. </li>
                       </p>
                       <br>
@@ -98,9 +103,6 @@
                       <p><h4> 🏫 College Name:</h4> <a href="www.scet.ac.in">SCET-Surat (Sarvajanik College of Engineering and Technology)</a><br>
                          <li> I'm currently pursuing B.Tech in Information Technology.</li>
                       </p> -->
-                </div>
-                <!-- Certificates && Experience Information -->
-                <div class="Certificates">
 
                 </div>
             </div>

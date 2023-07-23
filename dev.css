@@ -218,6 +218,15 @@ section p
     overflow-y:scroll;
     /* width: 200px; */
 }
+@media only screen and (min-width: 499px)
+{
+#mobilePic
+{
+    visibility: hidden;
+    position: absolute;
+}
+    
+}
 @media only screen and (max-width: 500px) {
     nav
     {

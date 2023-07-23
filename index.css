@@ -60,6 +60,33 @@ a
 {
     content: '<<';
 }
+.educationInfo
+{
+    position: relative;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.educationInfo p
+{
+    margin-bottom: 12px;
+}
+.educationInfo a
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+#info .links
+{
+    margin: 0;
+}
+#info .links img
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
 @keyframes fillbtn
 {
     0% {
