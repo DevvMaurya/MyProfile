@@ -10,13 +10,13 @@ function jumpToAbout()
 
 function onSCroll()
 {
-    if ( document.getElementById('cb').scrollTop >= 300 ) 
+    if ( document.getElementById('cb').scrollTop >= 250 ) 
     { // scrollTop gives the live height of the scroll bar..    
         document.getElementById('name').className = "nameeffect"
         // document.getElementById('pic').className = ""
         document.getElementById('pic').className = "piceffect"
         document.getElementById('name').style.fontSize = "20px";
-        document.getElementById('chuser').style.width = "100px"
+        document.getElementById('chuser').style.width = "120px"
         document.getElementById('chuser').style.transition = "0.2s ease-in"
     }
     else if( document.getElementById('cb').scrollTop < 250 )
@@ -25,7 +25,7 @@ function onSCroll()
         document.getElementById('pic').className = "none"
         
         document.getElementById('name').style.fontSize = "26px";
-        document.getElementById('chuser').style.width = "200px"
+        document.getElementById('chuser').style.width = "150px"
         document.getElementById('chuser').style.transition = "0.2s ease-out"
         }
 }
